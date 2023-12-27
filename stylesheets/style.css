@@ -1,0 +1,145 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 200px;
+}
+
+/* Set up the background gradient and font */
+body {
+  background: linear-gradient(to right, #ffffff, #3596b9);
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Navigation bar styles */
+nav {
+  background: linear-gradient(to right, #87CEEB, #001f3f);
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Header styles */
+h1, h2, h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Container styles */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Form and input styles */
+form {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.label-group {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input {
+  width: 400px;
+}
+
+/* Image container styles */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-container a {
+  text-decoration: none;
+  color: #000;
+}
+
+.image-container img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.image-container h3 {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Section container styles */
+.section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
+/* Section heading styles */
+.section h1 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.section h2 {
+  color: #000000;
+}
+
+.section h3 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* Additional styles for specific sections can be added as needed */
+
+/* Footer styles (if applicable) */
+
+/* etc. */
+
+.navbar-brand img {
+  width: 50px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust as needed for spacing */
+}
+
+.navbar-brand {
+  font-size: 40px; 
+}
